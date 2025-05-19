@@ -1,0 +1,2050 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="pxabnsnfns00000000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+  <layouts>
+    <layout name="npnxnanbsnfns00000000101" font="Lato" controllayout="npnxnanbsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Lato" controllayout="pxabnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Lato" controllayout="npxnabnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Lato" controllayout="npnxnanbnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Lato" controllayout="pxabnsnfns00000000100" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="Project Akar Nusantara" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="right" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="none" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true" />
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+      <optiongroup name="ccOptions">
+        <options>
+          <option name="font" value="Lato" />
+          <option name="size" value="100" />
+          <option name="placement" value="100" />
+          <option name="backgroundColor" value="#000000FF" />
+          <option name="color" value="#FFFFFFFF" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00000000101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00000000101">
+      <string id="acc_active">aktif</string>
+      <string id="acc_cc_hide">Sembunyikan teks (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Tampilkan teks (Ctrl+Alt+C)</string>
+      <string id="acc_closed_captions">Takarir tertutup. Tekan tombol spasi untuk mengaktifkan dan menonaktifkan takarir.</string>
+      <string id="acc_definition">definisi</string>
+      <string id="acc_enter_fullscreen">Masuk ke mode layar penuh</string>
+      <string id="acc_exit_fullscreen">Keluar dari layar penuh</string>
+      <string id="acc_finish">selesai</string>
+      <string id="acc_locked">terkunci</string>
+      <string id="acc_modern_video_captions">keterangan video</string>
+      <string id="acc_modern_video_fullscreen">video layar penuh</string>
+      <string id="acc_modern_video_mute">bisukan video</string>
+      <string id="acc_modern_video_pause">jeda video</string>
+      <string id="acc_modern_video_pip">gambar-dalam-gambar</string>
+      <string id="acc_modern_video_play">putar video</string>
+      <string id="acc_modern_video_playback_speed">kecepatan pemutaran</string>
+      <string id="acc_modern_video_settings">pengaturan video</string>
+      <string id="acc_modern_video_transcript">Megnyitása</string>
+      <string id="acc_modern_video_volume">volume video</string>
+      <string id="acc_mute">Senyap (Ctrl+Alt+M)</string>
+      <string id="acc_next">berikutnya</string>
+      <string id="acc_next_visual">Selanjutnya (Ctrl+Alt+.)</string>
+      <string id="acc_pause">jeda</string>
+      <string id="acc_play">putar</string>
+      <string id="acc_playback_speed">kecepatan pemutaran</string>
+      <string id="acc_previous">sebelumnya</string>
+      <string id="acc_previous_visual">Sebelumnya (Ctrl+Alt+,)</string>
+      <string id="acc_replay">ulangi</string>
+      <string id="acc_resources">sumber informasi</string>
+      <string id="acc_search_input">cari</string>
+      <string id="acc_settings">Pengaturan</string>
+      <string id="acc_skipnavigation">Kembali ke atas</string>
+      <string id="acc_slide_progress">kemajuan slide</string>
+      <string id="acc_submit">kirim</string>
+      <string id="acc_submitall">kirim semua</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% dari %total% item dikunjungi</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% dari %total% item-item dikunjungi</string>
+      <string id="acc_three_image_step_count_of_total">hitungan %count% dari %total%</string>
+      <string id="acc_unmute">Bunyikan (Ctrl+Alt+M)</string>
+      <string id="acc_video_transcript_list">Átirat</string>
+      <string id="acc_visited">dikunjungi</string>
+      <string id="acc_volume">volume suara</string>
+      <string id="acc_window_close">Bezárás</string>
+      <string id="acc_window_move">Mozgassa az ablakot</string>
+      <string id="acc_window_options">Lehetőségek</string>
+      <string id="acc_window_resize">Ablak átméretezése</string>
+      <string id="accessible_text">Teks terakses</string>
+      <string id="acctext_shortcut">Teks terakses tombol dwiarah</string>
+      <string id="action">Tindakan</string>
+      <string id="alt_key">Alt</string>
+      <string id="background_audio">Háttérhang</string>
+      <string id="background_audio_shortcut">Háttérhang váltása</string>
+      <string id="bio">Bio</string>
+      <string id="check_include">Centang untuk disertakan</string>
+      <string id="clear">Hapus dan kembali ke Menu</string>
+      <string id="close">Tutup</string>
+      <string id="closed_captions">Takarir</string>
+      <string id="closed_captions_tip">Alihkan teks</string>
+      <string id="closedcaptions_shortcut">Teks tertutup tombol dwiarah</string>
+      <string id="comma_key">Koma</string>
+      <string id="continue">Lanjutkan</string>
+      <string id="continueresponsive">Lanjutkan</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="definition">Definisi</string>
+      <string id="desktop_start">Mulai Kursus</string>
+      <string id="disabled_orientation">Putar perangkat Anda</string>
+      <string id="enable_keyboardshortcuts">Aktifkan pintasan keyboard</string>
+      <string id="enter_key">Masuk</string>
+      <string id="exit">Keluar</string>
+      <string id="filter">Filter</string>
+      <string id="finish">SELESAI</string>
+      <string id="fullscreen_shortcut">Alihkan mode layar penuh</string>
+      <string id="glossary">Daftar istilah</string>
+      <string id="keyboardshortcuts">Pintasan Keyboard</string>
+      <string id="keyboardshortcuts_lower">Pintasan Keyboard</string>
+      <string id="mobile_start">Mulai Kursus</string>
+      <string id="modern_video_captions_label">Keterangan</string>
+      <string id="modern_video_captions_off">Mati</string>
+      <string id="modern_video_captions_on">Nyala</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="modern_video_playback_settings">Pengaturan Pemutaran Video</string>
+      <string id="modern_video_playback_speed_title">Kecepatan Pemutaran</string>
+      <string id="modern_video_settings_close">pengaturan video dekat</string>
+      <string id="more_info">Info lengkap</string>
+      <string id="mute_shortcut">Bisukan / Bunyikan</string>
+      <string id="mute_tip">Matikan Suara</string>
+      <string id="next">BERIKUTNYA</string>
+      <string id="next_shortcut">Salindia berikutnya</string>
+      <string id="next_slide_tip">Salindia berikutnya</string>
+      <string id="outline">Menu</string>
+      <string id="pause_tip">Jeda</string>
+      <string id="period_key">Titik</string>
+      <string id="play_tip">Putar</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="playback_speed_title">Kecepatan Pemutaran</string>
+      <string id="playpause_shortcut">Putar /Jeda</string>
+      <string id="prev">SEBELUMNYA</string>
+      <string id="previous_shortcut">Salindia sebelumnya</string>
+      <string id="previous_slide_tip">Salindia sebelumnya</string>
+      <string id="progress_hour">jam</string>
+      <string id="progress_hours">jam</string>
+      <string id="progress_minute">menit</string>
+      <string id="progress_minutes">menit</string>
+      <string id="progress_second">detik</string>
+      <string id="progress_seconds">detik</string>
+      <string id="question_list">Daftar Pertanyaan</string>
+      <string id="question_mark_key">Tanda tanya</string>
+      <string id="replay_shortcut">Putar ulang salindia</string>
+      <string id="replay_tip">Putar Ulang</string>
+      <string id="resources">Sumber informasi</string>
+      <string id="restart">Mulai ulang</string>
+      <string id="resume">Lanjutkan</string>
+      <string id="search">Cari...</string>
+      <string id="search_in">Cari di:</string>
+      <string id="search_results">Hasil Pencarian</string>
+      <string id="search_toggle">Cari</string>
+      <string id="send_an_email">Kirim email</string>
+      <string id="settings_tip">Pengaturan</string>
+      <string id="shift_key">Shift</string>
+      <string id="shortcut">Pintasan</string>
+      <string id="shortcuthelp">Daftar pintasan keyboard</string>
+      <string id="sidebar_toggle">Tombol Alih Bilah Samping</string>
+      <string id="slide_text_chk">Teks Slide</string>
+      <string id="spacebar_key">Spasi</string>
+      <string id="streaming_video_local_playback_learn_more">Ketahui lebih lanjut</string>
+      <string id="streaming_video_local_playback_republish">Untuk menonton video ini, gunakan fitur pratinjau di Storyline 360, unggah hasil publikasi Anda ke server, publikasikan ke Review 360, atau alihkan ke kualitas video statis.</string>
+      <string id="streaming_video_local_playback_title">Video streaming tidak tersedia untuk pemutaran lokal.</string>
+      <string id="submit">KIRIM</string>
+      <string id="submit_shortcut">Kirim salindia</string>
+      <string id="submit_tip">Kirim</string>
+      <string id="submitall">KIRIM SEMUA</string>
+      <string id="terms">Istilah</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">kamera bergerak ke bawah</string>
+      <string id="three_image_camera_left">kamera bergerak ke kiri</string>
+      <string id="three_image_camera_right">kamera bergerak ke kanan</string>
+      <string id="three_image_camera_up">kamera bergerak ke atas</string>
+      <string id="three_image_count_of_total">%count% dari %total%</string>
+      <string id="three_image_count_of_total_visited">%count% dari %total% dikunjungi</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Gunakan tombol w, a, s, dan d untuk memutar gambar 360 derajat. Tekan tombol tab untuk berpindah ke penanda dan hotspot interaktif.</string>
+      <string id="three_image_interaction">interaksi gambar 360 derajat</string>
+      <string id="three_image_interaction_free">mode jelajah bebas</string>
+      <string id="three_image_interaction_guided">mode tur terpandu</string>
+      <string id="three_image_interaction_next">selanjutnya</string>
+      <string id="three_image_interaction_prev">sebelumnya</string>
+      <string id="three_image_interaction_step">langkah</string>
+      <string id="three_image_item">barang</string>
+      <string id="three_image_items">barang-barang</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">penanda</string>
+      <string id="three_image_of">dari</string>
+      <string id="three_image_pause_audio">jeda audio</string>
+      <string id="three_image_pause_video">jeda video</string>
+      <string id="three_image_play_audio">putar audio</string>
+      <string id="three_image_play_video">putar video</string>
+      <string id="three_image_progress_audio">kemajuan</string>
+      <string id="three_image_progress_video">kemajuan</string>
+      <string id="three_image_tooltip">keterangan alat</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_total_items">%total% item-item</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">volume video</string>
+      <string id="three_image_visited">dikunjungi</string>
+      <string id="togglezoom">Ubah zoom agar sesuai</string>
+      <string id="transcript">Catatan</string>
+      <string id="transcript_auto_scroll">Automatikus görgetés</string>
+      <string id="transcript_chk">Catatan</string>
+      <string id="transcript_show_timestamp">Időbélyegek megjelenítése</string>
+      <string id="unmute_tip">Nyalakan Suara</string>
+      <string id="video_transcript_resume_autoscroll">Az automatikus görgetés folytatása</string>
+      <string id="video_transcript_select_track">Válassza ki a számot</string>
+      <string id="video_transcript_title">Átiratok</string>
+      <string id="zoom_to_fit">Perbesar sesuai ukuran</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.6JcI10zYo0H" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6JcI10zYo0H.67GIsBc3oA2" displaytext="bag 1" expand="false" type="slide" />
+            <slidelink slideid="_player.6JcI10zYo0H.5YfewqO376m" displaytext="bag 1" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5zNOWIS8V4B" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5zNOWIS8V4B.5bxRbSxS1dw" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5zNOWIS8V4B.5aPwiY3DING" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5zNOWIS8V4B.5q1tCHdQOts" displaytext="Materi " expand="false" type="slide" />
+            <slidelink slideid="_player.5zNOWIS8V4B.6BuEdYb3kTq" displaytext="Profil Pengembang" expand="false" type="slide" />
+            <slidelink slideid="_player.5zNOWIS8V4B.5hBxgLGA6VK" displaytext="Profil Pengembang" expand="false" type="slide" />
+            <slidelink slideid="_player.5zNOWIS8V4B.6HAP2oBbu8x" displaytext="Profil Pengembang" expand="false" type="slide" />
+            <slidelink slideid="_player.5zNOWIS8V4B.61CdpAds8IV" displaytext="Profil Pengembang" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5YSzTuNVtq1" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5YSzTuNVtq1.6RI3C5Hojm5" displaytext="Pick Many" expand="false" type="slide" />
+            <slidelink slideid="_player.5YSzTuNVtq1.5uCEcEKwkrB" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.5YSzTuNVtq1.6GKeXnL61ow" displaytext="3. Ada berapa provinsi di indonesia saat ini?" expand="false" type="slide" />
+            <slidelink slideid="_player.5YSzTuNVtq1.6blwcpTTIE8" displaytext="4. Lumpia Semarang adalah &#xA;makanan khas dari?" expand="false" type="slide" />
+            <slidelink slideid="_player.5YSzTuNVtq1.6EtMuOp1IHF" displaytext="Apakah NTT termasuk dari pulau Sulawesi?" expand="false" type="slide" />
+            <slidelink slideid="_player.5YSzTuNVtq1.6PrEUljAXJq" displaytext="Drag and Drop" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6JHhkwJnc9G" displaytext="Scene Pulau" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6JHhkwJnc9G.5qqZlUK5MCd" displaytext="Slide Pulau" expand="false" type="slide" />
+            <slidelink slideid="_player.6JHhkwJnc9G.6ENUG9hGKl6" displaytext="Slide Pulau" expand="false" type="slide" />
+            <slidelink slideid="_player.6JHhkwJnc9G.63B464Oi2fu" displaytext="Slide Pulau" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5dLzrNiQV11" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5dLzrNiQV11.6bixJrOA6oN" displaytext=" Jawa" expand="false" type="slide" />
+            <slidelink slideid="_player.5dLzrNiQV11.5t4J08oKYES" displaytext="Sumatera" expand="false" type="slide" />
+            <slidelink slideid="_player.5dLzrNiQV11.5dqOP86NDTp" displaytext="Sulawesi" expand="false" type="slide" />
+            <slidelink slideid="_player.5dLzrNiQV11.5fCHkMusGKt" displaytext="Maluku &amp;amp; Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.5dLzrNiQV11.5ySM33Emcu8" displaytext="Kalimantan" expand="false" type="slide" />
+            <slidelink slideid="_player.5dLzrNiQV11.5vOxAw0Rfef" displaytext="Nusa Tenggara &amp;amp; Bali" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6pzOrPDnIwj" displaytext="Banten" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6pzOrPDnIwj.6hVz0iQLX9O" displaytext="Banten" expand="false" type="slide" />
+            <slidelink slideid="_player.6pzOrPDnIwj.5ckFPXGrfCD" displaytext="Banten" expand="false" type="slide" />
+            <slidelink slideid="_player.6pzOrPDnIwj.5k5I6g0P8hD" displaytext="Banten" expand="false" type="slide" />
+            <slidelink slideid="_player.6pzOrPDnIwj.6q1TstPEKOP" displaytext="Banten" expand="false" type="slide" />
+            <slidelink slideid="_player.6pzOrPDnIwj.6j3JqM5aqFS" displaytext="Banten" expand="false" type="slide" />
+            <slidelink slideid="_player.6pzOrPDnIwj.6LshVHHXSlc" displaytext="Banten" expand="false" type="slide" />
+            <slidelink slideid="_player.6pzOrPDnIwj.6jloOvURhs6" displaytext="Banten" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5ezGem3szsS" displaytext="Jakarta" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5ezGem3szsS.6TEDrWnwfht" displaytext="DKI Jakarta" expand="false" type="slide" />
+            <slidelink slideid="_player.5ezGem3szsS.6nt5koRwhLB" displaytext="DKI Jakarta" expand="false" type="slide" />
+            <slidelink slideid="_player.5ezGem3szsS.6MaObXp9RKt" displaytext="DKI Jakarta" expand="false" type="slide" />
+            <slidelink slideid="_player.5ezGem3szsS.5kBhmOTJ6mz" displaytext="DKI Jakarta" expand="false" type="slide" />
+            <slidelink slideid="_player.5ezGem3szsS.5kvXC4vHkya" displaytext="DKI Jakarta" expand="false" type="slide" />
+            <slidelink slideid="_player.5ezGem3szsS.6jQXOvpSOkI" displaytext="DKI Jakarta" expand="false" type="slide" />
+            <slidelink slideid="_player.5ezGem3szsS.6N9KYxb12Vc" displaytext="DKI Jakarta" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ZHYpzWRmEj" displaytext="Aceh" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ZHYpzWRmEj.5adz3rund3R" displaytext="Aceh" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZHYpzWRmEj.5tl36OJHo2I" displaytext="Aceh" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZHYpzWRmEj.6LVTozd2KBb" displaytext="Aceh" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZHYpzWRmEj.6Qf98juTzAM" displaytext="Aceh" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZHYpzWRmEj.6UpHC8cAate" displaytext="Aceh" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZHYpzWRmEj.6g9xYEgC7yD" displaytext="Aceh" expand="false" type="slide" />
+            <slidelink slideid="_player.6ZHYpzWRmEj.68jf4SeIg0g" displaytext="Aceh" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6oWl5OsIp8y" displaytext="SUMUT" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6oWl5OsIp8y.61haQmmizFp" displaytext="Sumatra Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.6oWl5OsIp8y.6IwvJ7Ux1DR" displaytext="Sumatera Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.6oWl5OsIp8y.6Gk3faVS9In" displaytext="Sumatera mutia" expand="false" type="slide" />
+            <slidelink slideid="_player.6oWl5OsIp8y.5qkCDm3YbEX" displaytext="Sumatera  Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.6oWl5OsIp8y.6edffYWA8yq" displaytext="Sumatera Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.6oWl5OsIp8y.64BKnKtnMyy" displaytext="Sumatera Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.6oWl5OsIp8y.5vQIW0C6I0k" displaytext="Sumatera Utara" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6A2OUdorAER" displaytext="Kepulauan riau" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6A2OUdorAER.6XPKrTjUQ4U" displaytext="Kepulauan Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.6A2OUdorAER.6Vc4iNGACxp" displaytext="Kepulauan Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.6A2OUdorAER.6WT6baHJjt4" displaytext="Kepulauan Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.6A2OUdorAER.5qR6VQXfVso" displaytext="Kepulauan Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.6A2OUdorAER.5VeM3jPMqGt" displaytext="Kepulauan Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.6A2OUdorAER.5plMKPbUIGS" displaytext="Kepualuan Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.6A2OUdorAER.5xkd6GziCaU" displaytext="Kepulauan Riau" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5aJIfGYBFCn" displaytext="suLUT" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5aJIfGYBFCn.6WoeuTgyF5q" displaytext="Sulawesi Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5aJIfGYBFCn.6Fn0w0sZPRq" displaytext="Sulawesi Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5aJIfGYBFCn.5j1iUnWiri7" displaytext="Sulawesi Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5aJIfGYBFCn.6PDLAJtH8tS" displaytext="Sulawesi Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5aJIfGYBFCn.6HR03RnArvF" displaytext="Sulawesi Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5aJIfGYBFCn.6JeNlp2pWDj" displaytext="Sulawesi Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5aJIfGYBFCn.63WElpipE4T" displaytext="Sulawesi Utara" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.61oDv1iDDqf" displaytext="Gorontalo" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.61oDv1iDDqf.6jp9Aedmymv" displaytext="Gorontalo" expand="false" type="slide" />
+            <slidelink slideid="_player.61oDv1iDDqf.6SLKpQLp3WJ" displaytext="Gorontalo" expand="false" type="slide" />
+            <slidelink slideid="_player.61oDv1iDDqf.5udv6NJcu4r" displaytext="Gorontalo" expand="false" type="slide" />
+            <slidelink slideid="_player.61oDv1iDDqf.5bHXcOdvphg" displaytext="Gorontalo" expand="false" type="slide" />
+            <slidelink slideid="_player.61oDv1iDDqf.5tWPuQ6iN8f" displaytext="Gorontalo" expand="false" type="slide" />
+            <slidelink slideid="_player.61oDv1iDDqf.67gDkXelVsC" displaytext="Gorontalo" expand="false" type="slide" />
+            <slidelink slideid="_player.61oDv1iDDqf.6NJeUP4IMv2" displaytext="Gorontalo" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6j2LsuE7wUq" displaytext="SULTENG" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6j2LsuE7wUq.60ArjTFsUWy" displaytext="Sulawesi Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6j2LsuE7wUq.5cDjRFx60M7" displaytext="Sulawesi Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6j2LsuE7wUq.6M3DSQMwuou" displaytext="Sulawesi Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6j2LsuE7wUq.65aDuQWONtW" displaytext="Sulawesi Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6j2LsuE7wUq.6GifErxOCkD" displaytext="Sulawesi Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6j2LsuE7wUq.6hlFdxmR6eL" displaytext="Sulawesi Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6j2LsuE7wUq.5nmi5td5Uru" displaytext="Sulawesi Tengah" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5kbvI0jMevI" displaytext="SULBAR" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5kbvI0jMevI.5Ymll8eJy8O" displaytext="Sulawesi Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5kbvI0jMevI.6TUchV61J9v" displaytext="Sulawesi Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5kbvI0jMevI.6lDZThOF6IC" displaytext="Sulawesi Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5kbvI0jMevI.5zvJjwoIcqh" displaytext="Sulawesi Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5kbvI0jMevI.6ltbkJlnaOp" displaytext="Sulawesi Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5kbvI0jMevI.6Q6ux0BZS9L" displaytext="Sulawesi Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5kbvI0jMevI.6dXPZteGsoB" displaytext="Sulawesi Barat" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5VciweKxhT1" displaytext="SULSEL" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5VciweKxhT1.6rDYmfZwJAf" displaytext="Sulawesi Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.5VciweKxhT1.5YGIzNPnQwZ" displaytext="Sulawesi Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.5VciweKxhT1.6TmrO5t5wOE" displaytext="Sulawesi Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.5VciweKxhT1.6FaVwFNOFg0" displaytext="Sulawesi Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.5VciweKxhT1.5jcmtEGULcp" displaytext="Sulawesi Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.5VciweKxhT1.6fokbFW6LZU" displaytext="Sulawesi Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.5VciweKxhT1.5wOI8cmDOGr" displaytext="Sulawesi Selatan" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.63NlNDG0Piu" displaytext="SULTENG" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.63NlNDG0Piu.5uNLTVmey4B" displaytext="Sulawesi Tenggara" expand="false" type="slide" />
+            <slidelink slideid="_player.63NlNDG0Piu.6PHFgGr89zz" displaytext="Sulawesi Tenggara" expand="false" type="slide" />
+            <slidelink slideid="_player.63NlNDG0Piu.6rV3IZI8aTQ" displaytext="Sulawesi Tenggara" expand="false" type="slide" />
+            <slidelink slideid="_player.63NlNDG0Piu.5veTXSFBSQs" displaytext="Sulawesi Tenggara" expand="false" type="slide" />
+            <slidelink slideid="_player.63NlNDG0Piu.5Zc0Og0OQsS" displaytext="Sulawesi Tenggara" expand="false" type="slide" />
+            <slidelink slideid="_player.63NlNDG0Piu.6HF3Tn1eOU1" displaytext="Sulawesi Tenggara" expand="false" type="slide" />
+            <slidelink slideid="_player.63NlNDG0Piu.5rZj93tjNnQ" displaytext="Sulawesi Tenggara" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5WoLNKmTCB4" displaytext="MALUKU" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5WoLNKmTCB4.5aPtIYUvJr4" displaytext="Maluku" expand="false" type="slide" />
+            <slidelink slideid="_player.5WoLNKmTCB4.60iqmAgkcT5" displaytext="Maluku" expand="false" type="slide" />
+            <slidelink slideid="_player.5WoLNKmTCB4.5lxeCpK7Nxp" displaytext="Maluku" expand="false" type="slide" />
+            <slidelink slideid="_player.5WoLNKmTCB4.6YhUvrzq1x4" displaytext="Maluku" expand="false" type="slide" />
+            <slidelink slideid="_player.5WoLNKmTCB4.5dR5Jtc0vuk" displaytext="Maluku" expand="false" type="slide" />
+            <slidelink slideid="_player.5WoLNKmTCB4.6Nio3j28ocZ" displaytext="Maluku" expand="false" type="slide" />
+            <slidelink slideid="_player.5WoLNKmTCB4.6RhN7BHnAmv" displaytext="Maluku" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.67vfFaCTbxf" displaytext="MALUT" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.67vfFaCTbxf.6R7rSD8nqYB" displaytext="Sulawesi Tenggara" expand="false" type="slide" />
+            <slidelink slideid="_player.67vfFaCTbxf.5dGPqMmFjoY" displaytext="Maluku Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.67vfFaCTbxf.5h3H00y4RLA" displaytext="Maluku Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.67vfFaCTbxf.5V2oI3eKKFN" displaytext="Maluku Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.67vfFaCTbxf.66j9FW1SlLe" displaytext="Maluku Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.67vfFaCTbxf.63hCyeiS2tV" displaytext="Maluku Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.67vfFaCTbxf.6Of2a8SfJqL" displaytext="Maluku Utara" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5VTNM72mv4y" displaytext="PAPBAR" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5VTNM72mv4y.61W4YmjOh6H" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5VTNM72mv4y.5VQg3byICIa" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5VTNM72mv4y.5Z0keYxbqOe" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5VTNM72mv4y.6Zs1g6iJfmM" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5VTNM72mv4y.5olwmugxQA7" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5VTNM72mv4y.6IEnuyol1lV" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.5VTNM72mv4y.6WGF4Kr6jGg" displaytext="Papua Barat" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6P67nWZJ0Mb" displaytext="Papua Pegu" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6P67nWZJ0Mb.6rgnsVaZIWB" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6P67nWZJ0Mb.6qYDxfSaxLs" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6P67nWZJ0Mb.6SABOquDht1" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6P67nWZJ0Mb.6FChnchcYJL" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6P67nWZJ0Mb.5vYjbIlY7Ad" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6P67nWZJ0Mb.5i0I970BCWj" displaytext="Papua Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6P67nWZJ0Mb.6B7wh1YJUO0" displaytext="Papua Barat" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5Znn7IiCuuo" displaytext="Papua Barday" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5Znn7IiCuuo.5ijAf1FTzB6" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.5Znn7IiCuuo.6d2qgSSW18A" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.5Znn7IiCuuo.5i8qZw9wlDU" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.5Znn7IiCuuo.6OQXUhuY4GF" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.5Znn7IiCuuo.60THRkj5Mbz" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.5Znn7IiCuuo.6fak5s1aFzg" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.5Znn7IiCuuo.6ieboxeiRlJ" displaytext="Papua" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6J7pwXJz5Gv" displaytext="Papua Selatan" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6J7pwXJz5Gv.6FkGH452Eew" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6J7pwXJz5Gv.6Zm3rMUSYC0" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6J7pwXJz5Gv.5zmg2pQnDwL" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6J7pwXJz5Gv.5oMJ9njepwY" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6J7pwXJz5Gv.6IERy4h2GG0" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6J7pwXJz5Gv.5g60dGH9w8p" displaytext="Papua" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6pBnmG3p8vM" displaytext="PAPUA" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6pBnmG3p8vM.6mZ320KYOoh" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6pBnmG3p8vM.65bh1IocnST" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6pBnmG3p8vM.5qeGMEj4Aos" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6pBnmG3p8vM.61UpZlW44Af" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6pBnmG3p8vM.6AYsD1ZzHtE" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6pBnmG3p8vM.6XZQIYv4JKZ" displaytext="Papua" expand="false" type="slide" />
+            <slidelink slideid="_player.6pBnmG3p8vM.6DuSNiBp8lu" displaytext="Papua" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5mK9D8tjehG" displaytext="Bali" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5mK9D8tjehG.6ME1DIsk9Py" displaytext="Bali" expand="false" type="slide" />
+            <slidelink slideid="_player.5mK9D8tjehG.6p8dzNaEPwD" displaytext="Bali" expand="false" type="slide" />
+            <slidelink slideid="_player.5mK9D8tjehG.5yHowjaKPZC" displaytext="Bali" expand="false" type="slide" />
+            <slidelink slideid="_player.5mK9D8tjehG.6HV8DDJ9uVK" displaytext="Bali" expand="false" type="slide" />
+            <slidelink slideid="_player.5mK9D8tjehG.5baMKMWcwAw" displaytext="Bali" expand="false" type="slide" />
+            <slidelink slideid="_player.5mK9D8tjehG.6bg2U7TqbBe" displaytext="Bali" expand="false" type="slide" />
+            <slidelink slideid="_player.5mK9D8tjehG.5xxGal8FxOB" displaytext="Bali" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6hYm5IenOqS" displaytext="NTB" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6hYm5IenOqS.62GWljSJ7Qt" displaytext="NTB" expand="false" type="slide" />
+            <slidelink slideid="_player.6hYm5IenOqS.6AcXNv9KsJR" displaytext="NTB" expand="false" type="slide" />
+            <slidelink slideid="_player.6hYm5IenOqS.6YWgGJcKOgj" displaytext="NTB" expand="false" type="slide" />
+            <slidelink slideid="_player.6hYm5IenOqS.6ZV68zf01hK" displaytext="NTB" expand="false" type="slide" />
+            <slidelink slideid="_player.6hYm5IenOqS.6iW84Op9ajy" displaytext="NTB" expand="false" type="slide" />
+            <slidelink slideid="_player.6hYm5IenOqS.6NZkfwuYYYh" displaytext="NTB" expand="false" type="slide" />
+            <slidelink slideid="_player.6hYm5IenOqS.5WAc4J0jvlO" displaytext="NTB" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.60BbL7dgNE5" displaytext="NTT" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.60BbL7dgNE5.5pFv6C1RMeh" displaytext="NTT" expand="false" type="slide" />
+            <slidelink slideid="_player.60BbL7dgNE5.5ZaaFPhS4Rv" displaytext="NTT" expand="false" type="slide" />
+            <slidelink slideid="_player.60BbL7dgNE5.5ew5sQ1ggv9" displaytext="NTT" expand="false" type="slide" />
+            <slidelink slideid="_player.60BbL7dgNE5.6L3opXtdqI5" displaytext="NTT" expand="false" type="slide" />
+            <slidelink slideid="_player.60BbL7dgNE5.5XZAR8TER6I" displaytext="NTT" expand="false" type="slide" />
+            <slidelink slideid="_player.60BbL7dgNE5.6kYqDlwIIti" displaytext="NTT" expand="false" type="slide" />
+            <slidelink slideid="_player.60BbL7dgNE5.6o0BtMKivZ9" displaytext="NTT" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.658bFjUiJjP" displaytext="KALBAR" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.658bFjUiJjP.6hmnx5zRnbV" displaytext="Kalimantan Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.658bFjUiJjP.68E5Eb36Px0" displaytext="Kalimantan Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.658bFjUiJjP.6fqqgDmXA1o" displaytext="Kalimantan Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.658bFjUiJjP.6BU5zkmovmP" displaytext="Kalimantan Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.658bFjUiJjP.5egeBQUqGHk" displaytext="Kalimantan Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.658bFjUiJjP.6GLUyjnrQ3D" displaytext="Kalimantan Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.658bFjUiJjP.68HjWJPKrax" displaytext="Kalimantan Barat" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6MQUVzLqOfX" displaytext="KALTENG" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6MQUVzLqOfX.6TH5z5nmahk" displaytext="Kalimantan Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6MQUVzLqOfX.6Oaj2FLRuRM" displaytext="Kalimantan Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6MQUVzLqOfX.5VeWFhoG0G4" displaytext="Kalimantan Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6MQUVzLqOfX.6FhZWKZ1Nm3" displaytext="Kalimantan Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6MQUVzLqOfX.5jQQY3xBN5a" displaytext="Kalimantan Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6MQUVzLqOfX.5UhefpU29cg" displaytext="Kalimantan Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.6MQUVzLqOfX.5nUS3VfbXjj" displaytext="Kalimantan Tengah" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6Q3uOhFCAwe" displaytext="KALSEL" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6Q3uOhFCAwe.6NVNK3ezDUj" displaytext="Kalimantan Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q3uOhFCAwe.5xTHodYZOM5" displaytext="Kalimantan Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q3uOhFCAwe.6EKzypiKGmB" displaytext="Kalimantan Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q3uOhFCAwe.6iPQFZnSRG2" displaytext="Kalimantan Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q3uOhFCAwe.6JidpDyYjqJ" displaytext="Kalimantan Selatan " expand="false" type="slide" />
+            <slidelink slideid="_player.6Q3uOhFCAwe.5eLHma64W6F" displaytext="Kalimantan Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.6Q3uOhFCAwe.6KBOrqSWt0L" displaytext="Kalimantan Selatan" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5kUKxdq6o86" displaytext="KALTIM" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5kUKxdq6o86.5aXzdm2dyIK" displaytext="Kalimantan Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.5kUKxdq6o86.5ccbNZwQhPN" displaytext="Kalimantan Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.5kUKxdq6o86.5jQtlWKF39I" displaytext="Kalimantan Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.5kUKxdq6o86.5zB4oIyFsrS" displaytext="Kalimantan Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.5kUKxdq6o86.6LNONLFfJFv" displaytext="Kalimantan Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.5kUKxdq6o86.5fIkGBRRPkh" displaytext="Kalimantan Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.5kUKxdq6o86.6VbRN3XdCUH" displaytext="Kalimantan Timur" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5ojWR8EUIIz" displaytext="KALUT" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5ojWR8EUIIz.6VHnI0916ck" displaytext="Kalimantan Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5ojWR8EUIIz.5wlyAaBOShZ" displaytext="Kalimantan Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5ojWR8EUIIz.6S69kS47VTg" displaytext="Kalimantan Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5ojWR8EUIIz.628p2UounCL" displaytext="Kalimantan Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5ojWR8EUIIz.6AoxK8iWAGk" displaytext="Kalimantan Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5ojWR8EUIIz.6egStvqQDKu" displaytext="Kalimantan Utara" expand="false" type="slide" />
+            <slidelink slideid="_player.5ojWR8EUIIz.5i64HU0t2IF" displaytext="Kalimantan Utara" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.69ZEsxXzXG5" displaytext="Bengkulu" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.69ZEsxXzXG5.5cv1qVndPvY" displaytext="Bengkulu" expand="false" type="slide" />
+            <slidelink slideid="_player.69ZEsxXzXG5.6rPU7ZSYnTw" displaytext="Bengkulu" expand="false" type="slide" />
+            <slidelink slideid="_player.69ZEsxXzXG5.5WsANVcmUP7" displaytext="Bengkulu" expand="false" type="slide" />
+            <slidelink slideid="_player.69ZEsxXzXG5.6HQkybS8iES" displaytext="Bengkulu" expand="false" type="slide" />
+            <slidelink slideid="_player.69ZEsxXzXG5.5bISoZ2gu5b" displaytext="Bengkulu" expand="false" type="slide" />
+            <slidelink slideid="_player.69ZEsxXzXG5.5VbK9KxVt39" displaytext="Bengkulu" expand="false" type="slide" />
+            <slidelink slideid="_player.69ZEsxXzXG5.6o6D7BAKu3c" displaytext="Bengkulu" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6P0Csl5iPRv" displaytext="Bangka " expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6P0Csl5iPRv.6ZhZijZaatQ" displaytext="Bangka Belitung" expand="false" type="slide" />
+            <slidelink slideid="_player.6P0Csl5iPRv.6GDM4G0Csv4" displaytext="Bangka Belitung" expand="false" type="slide" />
+            <slidelink slideid="_player.6P0Csl5iPRv.6hnH5sTn4qJ" displaytext="Bangka Belitung" expand="false" type="slide" />
+            <slidelink slideid="_player.6P0Csl5iPRv.6WEW5nvjfqg" displaytext="Bangka Belitung" expand="false" type="slide" />
+            <slidelink slideid="_player.6P0Csl5iPRv.5vPtqA5z6QX" displaytext="Bangka Belitung" expand="false" type="slide" />
+            <slidelink slideid="_player.6P0Csl5iPRv.6CvRVG1ijoy" displaytext="Bangka Belitung" expand="false" type="slide" />
+            <slidelink slideid="_player.6P0Csl5iPRv.6I9VLwau1Ue" displaytext="Bangka Belitung" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.68jyfvpQN7Z" displaytext="Lampung" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.68jyfvpQN7Z.6qy8QjAY4JP" displaytext="Lampung" expand="false" type="slide" />
+            <slidelink slideid="_player.68jyfvpQN7Z.6VEUt4O0RZp" displaytext="Lampung" expand="false" type="slide" />
+            <slidelink slideid="_player.68jyfvpQN7Z.6ALg8MjZzqd" displaytext="Lampung" expand="false" type="slide" />
+            <slidelink slideid="_player.68jyfvpQN7Z.5YrOzoNXDdH" displaytext="Lampung" expand="false" type="slide" />
+            <slidelink slideid="_player.68jyfvpQN7Z.6iQWOK26RU8" displaytext="Lampung" expand="false" type="slide" />
+            <slidelink slideid="_player.68jyfvpQN7Z.6SH0iRzTH8n" displaytext="Lampung" expand="false" type="slide" />
+            <slidelink slideid="_player.68jyfvpQN7Z.61rITofwwmW" displaytext="Lampung" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.64afcgQ3Fyo" displaytext="Sumsel" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.64afcgQ3Fyo.5Z0K1qn74V6" displaytext="Sumatra Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.64afcgQ3Fyo.5oa3epcAbkb" displaytext="Sumatera Selatan " expand="false" type="slide" />
+            <slidelink slideid="_player.64afcgQ3Fyo.5jRFxCLoHZz" displaytext="Sumatera Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.64afcgQ3Fyo.5dpBi8UEQ1g" displaytext="Sumatera Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.64afcgQ3Fyo.6htqbpsmQZK" displaytext="Sumatera Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.64afcgQ3Fyo.5akEQrnFO5r" displaytext="Sumatera Selatan" expand="false" type="slide" />
+            <slidelink slideid="_player.64afcgQ3Fyo.5n2fhdtKlak" displaytext="Sumatera Selatan" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6fdyU993300" displaytext="Jambi" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6fdyU993300.5iLvbBu5LSy" displaytext="Jambi" expand="false" type="slide" />
+            <slidelink slideid="_player.6fdyU993300.6fBxKUlGw5k" displaytext="Jambi" expand="false" type="slide" />
+            <slidelink slideid="_player.6fdyU993300.6dczjrP5Ewq" displaytext="Jambi" expand="false" type="slide" />
+            <slidelink slideid="_player.6fdyU993300.5yfiIuVTQJC" displaytext="Jambi" expand="false" type="slide" />
+            <slidelink slideid="_player.6fdyU993300.5bYuQlb6aNW" displaytext="Jambi" expand="false" type="slide" />
+            <slidelink slideid="_player.6fdyU993300.6dr2U2F5Gzb" displaytext="Jambi" expand="false" type="slide" />
+            <slidelink slideid="_player.6fdyU993300.5zHQ5NBVJFL" displaytext="Jambi" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6ogSTuHgY7P" displaytext="Sumbar" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6ogSTuHgY7P.6gQbOcl9zqJ" displaytext="Sumatra Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6ogSTuHgY7P.6BlHpgCDlMk" displaytext="Sumatra Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6ogSTuHgY7P.5nZrg16boK0" displaytext="Sumatra Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6ogSTuHgY7P.63OuyP7lfX6" displaytext="Sumatra Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6ogSTuHgY7P.6TtW9lfaFHg" displaytext="Sumatra Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6ogSTuHgY7P.6nGSSvVTieE" displaytext="Sumatera Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6ogSTuHgY7P.6NG4gZXjqxi" displaytext="Sumatera Barat" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5rXtg8aBNCu" displaytext="Riau" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5rXtg8aBNCu.6O2fTINaFvS" displaytext="Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.5rXtg8aBNCu.6E7BV803OgI" displaytext="Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.5rXtg8aBNCu.6L006Qd9Klr" displaytext="Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.5rXtg8aBNCu.6ODAUQtSLPS" displaytext="Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.5rXtg8aBNCu.60agnk4SGyp" displaytext="Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.5rXtg8aBNCu.6FQkJkyKFyl" displaytext="Riau" expand="false" type="slide" />
+            <slidelink slideid="_player.5rXtg8aBNCu.5Y3OIlcyIcG" displaytext="Riau" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6KHpcOp4bCQ" displaytext="Jawa Barat" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6KHpcOp4bCQ.6e7HIMub5vT" displaytext="Jawa Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6KHpcOp4bCQ.6EH6jYr3sLY" displaytext="Jawa Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6KHpcOp4bCQ.5bk9EQMfKGZ" displaytext="Jawa Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6KHpcOp4bCQ.6gFBJNs56Re" displaytext="Jawa Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6KHpcOp4bCQ.6Hc89OwJnwy" displaytext="Jawa Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6KHpcOp4bCQ.5YkKqxCZSpt" displaytext="Jawa Barat" expand="false" type="slide" />
+            <slidelink slideid="_player.6KHpcOp4bCQ.5a2HpksLsae" displaytext="Jawa Barat" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5xQ39RVrCmk" displaytext="Jawa Tengah" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5xQ39RVrCmk.6WXts2fzeUq" displaytext="Jawa Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.5xQ39RVrCmk.6MphpAPqojP" displaytext="Jawa Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.5xQ39RVrCmk.6OKjmwUWVqa" displaytext="Jawa Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.5xQ39RVrCmk.5VbQ9pvnmBf" displaytext="Jawa Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.5xQ39RVrCmk.61tOg4UCWdP" displaytext="Jawa Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.5xQ39RVrCmk.68I0PeBB7xP" displaytext="Jawa Tengah" expand="false" type="slide" />
+            <slidelink slideid="_player.5xQ39RVrCmk.6TlacEQK8BQ" displaytext="Jawa Tengah" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.698CST3Gfgf" displaytext="DIY" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.698CST3Gfgf.6Iabe5JemLH" displaytext="DIY" expand="false" type="slide" />
+            <slidelink slideid="_player.698CST3Gfgf.5qdebwy3LIx" displaytext="DIY" expand="false" type="slide" />
+            <slidelink slideid="_player.698CST3Gfgf.5u7Pm4vCvkE" displaytext="DIY" expand="false" type="slide" />
+            <slidelink slideid="_player.698CST3Gfgf.6TOPeu0zezO" displaytext="DIY" expand="false" type="slide" />
+            <slidelink slideid="_player.698CST3Gfgf.6NOsqdCHm15" displaytext="DIY" expand="false" type="slide" />
+            <slidelink slideid="_player.698CST3Gfgf.5nnYXZd7I5C" displaytext="DIY" expand="false" type="slide" />
+            <slidelink slideid="_player.698CST3Gfgf.6T5VGqko3D9" displaytext="DIY" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6f8li0BOHWI" displaytext="Jawa Timur" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6f8li0BOHWI.6c5eRc3jyfp" displaytext="Jawa Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.6f8li0BOHWI.68Vy3huY7s4" displaytext="Jawa Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.6f8li0BOHWI.6UFtm64LgDt" displaytext="Jawa Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.6f8li0BOHWI.6UXdWZ9HBOA" displaytext="Jawa Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.6f8li0BOHWI.66NrB9I1PdG" displaytext="Jawa Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.6f8li0BOHWI.5rPXpT2SVop" displaytext="Jawa Timur" expand="false" type="slide" />
+            <slidelink slideid="_player.6f8li0BOHWI.6oXtpordGya" displaytext="Jawa Timur" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
